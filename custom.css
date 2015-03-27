@@ -14,6 +14,8 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
   font-family: 'Droid Sans Mono Slashed', monospace !important;
 }
 
+div#header {color: #aaaaaa ; background: #444444 }
+
 /* GLOBALS */
 /* original background color: #2b303b */
 body {background-color: #444444;}
