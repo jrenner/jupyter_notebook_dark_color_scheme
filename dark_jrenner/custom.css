@@ -33,7 +33,7 @@ div#notebook {border-top: none; background: #333333}
 
 div#notebook-container {background: #444444}
 
-div.input_prompt {color: #ab7967;}
+div.input_prompt {color: #FFFFBB;}
 div.output_prompt {color: #b48ead;}
 div.input_area {
   border-radius: 0px;
