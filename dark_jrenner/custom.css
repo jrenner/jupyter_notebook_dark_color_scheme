@@ -31,7 +31,7 @@ a {color: #8fa1b3;}
 
 div#notebook {border-top: none; background: #333333}
 div#notebook-container {background: #444444}
-div#texteditor-backdrop {backgruond: #333333}
+div#texteditor-backdrop {background: #333333}
 
 div.input_prompt {color: #FFFFBB;}
 div.output_prompt {color: #b48ead;}
