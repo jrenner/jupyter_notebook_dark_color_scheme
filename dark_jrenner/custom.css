@@ -6,7 +6,6 @@
     CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
 */
 
 /* Uncomment to use a custom font */
@@ -14,7 +13,10 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
   font-family: 'Droid Sans Mono Slashed', monospace !important;
 }
 
-div#header {color: #aaaaaa ; background: #444444 }
+div#header {
+	background: #444444;
+	color: #b3c4d5;
+}
 
 /* GLOBALS */
 /* original background color: #2b303b */
@@ -89,3 +91,46 @@ div.output_stderr pre {color: #dfe1e8;}
 .cm-s-ipython span.cm-link {color: #b48ead;}
 
 .cm-s-ipython .CodeMirror-matchingbracket { text-decoration: underline; color: #dfe1e8 !important;}
+
+/* benklaas tweaks */
+.dropdown-menu, .btn-default, .toolbar select, .dropdown-menu>li>a, .navbar-default, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navb    ar-nav>.open>a:focus, span#login_widget>.button, #logout, #header .header-bar {
+	background-color: #333;
+}
+
+.btn-default, .toolbar select, .dropdown-menu>li>a {
+	color: #b3c4d5;
+	border-color: #333;
+}
+
+.navbar-default {
+	border-color: #333;
+}
+
+#kernel_indicator, .list_header, span#login_widget>.button, #logout, .navbar-default .navbar-nav>li>a {
+	color: #b3c4d5;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #555;
+}
+
+span#login_widget>.button, #logout {
+	border-color: #444;
+}
+
+.list_header, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .dropdown-menu .divider {
+	background-color: #444;
+}
+
+.nav-tabs, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus  {
+	border: 1px solid #b3c4d5;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus  {
+	border-bottom: none;
+}
+
