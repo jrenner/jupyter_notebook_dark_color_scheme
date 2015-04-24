@@ -35,6 +35,8 @@ div#notebook {border-top: none; background: #333333}
 div#notebook-container {background: #444444}
 div#texteditor-backdrop {background: #333333}
 
+.container { width:80% !important; }
+
 div.input_prompt {color: #FFFFBB;}
 div.output_prompt {color: #b48ead;}
 div.input_area {
@@ -66,8 +68,9 @@ span.ansiyellow {color: #ebcb8b;}
 div.output_stderr {background-color: #bf616a;}
 div.output_stderr pre {color: #dfe1e8;}
 
+
 .cm-s-ipython.CodeMirror {background: #333333; color: #dfe1e8;}
-.cm-s-ipython .CodeMirror-gutters {background: #2b303b; border-right: 0px;}
+.cm-s-ipython .CodeMirror-gutters {background: #222222; border-right: 0px;}
 .cm-s-ipython .CodeMirror-linenumber {color: #65737e;}
 .cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #a7adba !important;}
 
