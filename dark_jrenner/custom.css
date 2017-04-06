@@ -86,6 +86,7 @@ div.output_stderr pre {color: #dfe1e8;}
 .cm-s-ipython span.cm-builtin {color: #ffae45;}
 .cm-s-ipython span.cm-variable {color: #B3C4D5;}
 .cm-s-ipython span.cm-variable-2 {color: #8fa1b3;}
+.cm-s-ipython span.cm-variable-3 {color: #ff8888;}
 .cm-s-ipython span.cm-def {color: #ff9cff ;}
 /*.cm-s-ipython span.cm-def {color: #ffae45 ;}*/
 .cm-s-ipython span.cm-error {color: #FF3333;}
@@ -140,5 +141,9 @@ span#login_widget>.button, #logout {
 
 .CodeMirror-linenumbers {
 	background-color: #333 !important;
+}
+
+tr:nth-child(odd) {
+    background-color: #444 !important;
 }
 
