@@ -48,7 +48,7 @@ div.output_area pre {font-weight: normal; color: #c0c5ce;}
 div.output_subarea {font-weight: normal; color: #c0c5ce;}
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
-  border: 1px  #c0c5ce solid;
+  /* border: 1px  #c0c5ce solid; */
   color: #c0c5ce;
 }
 div.output_html { font-family: sans-serif; }
@@ -86,7 +86,6 @@ div.output_stderr pre {color: #dfe1e8;}
 .cm-s-ipython span.cm-builtin {color: #ffae45;}
 .cm-s-ipython span.cm-variable {color: #B3C4D5;}
 .cm-s-ipython span.cm-variable-2 {color: #8fa1b3;}
-.cm-s-ipython span.cm-variable-3 {color: #ff8888;}
 .cm-s-ipython span.cm-def {color: #ff9cff ;}
 /*.cm-s-ipython span.cm-def {color: #ffae45 ;}*/
 .cm-s-ipython span.cm-error {color: #FF3333;}
@@ -143,7 +142,11 @@ span#login_widget>.button, #logout {
 	background-color: #333 !important;
 }
 
-tr:nth-child(odd) {
-    background-color: #444 !important;
+tbody tr:nth-child(odd) {
+    background-color: #555 !important;
+}
+
+tbody tr:hover {
+    background-color: #465b6d !important;
 }
 
